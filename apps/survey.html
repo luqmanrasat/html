@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="../css/survey.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey Form</h1>
+    </header>
+    <main>
+      <p id="description">This is a random survey. Answer at your own risk!</p>
+      <form id="survey-form">
+        <!-- Name -->
+        <div class="rows">
+          <div class="labels"><label id="name-label">Name: </label></div>
+          <div class="inputs"><input id="name" class="input-field" type="text" placeholder="Enter your name" required></div>
+        </div>
+        <!-- Email -->
+        <div class="rows">
+          <div class="labels"><label id="email-label">Email: </label></div>
+          <div class="inputs"><input id="email" class="input-field" type="email" placeholder="Enter your email" required></div>
+        </div>
+        <!-- Age -->
+        <div class="rows">
+          <div class="labels"><label id="number-label">Age: </label></div>
+          <div class="inputs"><input id="number" class="input-field number" type="number" placeholder="Age" min="1" max="100"></div>
+        </div>
+        <!-- Dropdown -->
+        <div class="rows">
+          <div class="labels labels-top"><label id="dropdown-label">Before you started this survey, what were you doing?</label></div>
+          <div class="inputs">
+            <select id="dropdown" class="dropdown-field">
+              <option disabled value>Select an option</option>
+              <option value="eat">Eating</option>
+              <option value="tv">Watching TV</option>
+              <option value="read">Reading</option>
+              <option value="else">Something Else</option>
+            </select>
+          </div>
+        </div>
+        <!-- Radio -->
+        <div class="rows">
+          <div class="labels labels-top"><label for="dream-radio">Did you dream last night?</label></div>
+          <div class="inputs">
+            <ul>
+              <li><label><input name="dream-radio" type="radio" value="yes">Yes</label></li>
+              <li><label><input name="dream-radio" type="radio" value="no">No</label></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="rows">
+          <div class="labels labels-top"><label for="dance-radio">Do you like to dance?</label></div>
+          <div class="inputs">
+            <ul>
+              <li><label><input name="dance-radio" type="radio" value="yes">Yes</label></li>
+              <li><label><input name="dance-radio" type="radio" value="no">No</label></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Checkbox -->
+        <div class="rows">
+          <div class="labels labels-top"><label for="music-checkbox">Type of music you like to listen?<label></div>
+          <div class="inputs">
+            <ul>
+              <li><label><input name="music-checkbox" type="checkbox" value="rock">Rock<label></li>
+              <li><label><input name="music-checkbox" type="checkbox" value="blues">Blues<label></li>
+              <li><label><input name="music-checkbox" type="checkbox" value="jazz">Jazz<label></li>
+              <li><label><input name="music-checkbox" type="checkbox" value="others">Others<label></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Comments -->
+        <div class="rows">
+          <div class="labels labels-top"><label for="comment">Any Comments or Suggestions?</label></div>
+          <div class="inputs"><textarea id="comment" class="textarea-field" placeholder="Enter your comment here..."></textarea></div>
+        </div>
+        <!-- Submit -->
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>

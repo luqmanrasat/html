@@ -1,0 +1,42 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #00FFFF;
+}
+#main {
+  text-align: center;
+  background-color: #09A7A1;
+  padding: 5px;
+  border-radius: 5px;
+}
+#title {
+  background-color: ;
+}
+#title h1 {
+  text-transform: uppercase;
+}
+#img-div {
+  background-color: white;
+  width: 20%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+#img-caption {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 5px;
+}
+#tribute-info {
+  max-width: 35%;
+  margin: auto;
+  text-align: left;
+}
+#tribute-info p {
+  text-align: center;
+}

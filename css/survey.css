@@ -1,0 +1,68 @@
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: grey;
+  text-align: center;
+}
+main {
+  background-color: white;
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+}
+.rows {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  padding: 5px;
+}
+.labels {
+  justify-self: end;
+  align-self: center;
+  width: 60%;
+  text-align: right;
+}
+.labels-top {
+  align-self: start;
+}
+.input-field {
+  height: 20px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+.number {
+  width: 20%;
+}
+.dropdown-field {
+  height: 35px;
+}
+.textarea-field {
+  height:80px;
+  width: 100%;
+  resize:vertical;
+}
+.inputs {
+  justify-self: start;
+  align-self: center;
+  padding-left: 10px;
+  width: 80%;
+  text-align: left;
+}
+.inputs ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.inputs ul li {
+  padding-bottom: 5px;
+}
+#submit {
+  background-color: blue;
+  border-radius: 4px;
+  color: white;
+  height: 30px;
+  width: 80px;
+  margin: 10px;
+  border: 0px solid;
+}
