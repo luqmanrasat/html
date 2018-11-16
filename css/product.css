@@ -1,0 +1,82 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: cyan;
+
+}
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: cyan;
+  width: 95%;
+}
+.logo {
+  width: 60vw;
+}
+#header-img {
+  width: 55px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+nav ul {
+  list-style: none;
+  width: 35vw;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 1.2em;
+}
+.nav-link:hover {
+  color: blue;
+}
+main {
+  width: 80%;
+  margin: auto;
+}
+#top {
+  text-align: center;
+  width: 40%;
+  margin: 80px auto;
+}
+#email{
+  width: 70%;
+  height: 20px;
+  padding: 5px;
+  font-size: 0.9em;
+}
+#submit {
+  display: block;
+  margin: 5px auto;
+  border: 0px;
+  background-color: green;
+  width: 60%;
+  height: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+#video {
+  display: block;
+  width: 550px;
+  height: 310px;
+  margin: auto;
+}
+
+@media (max-width: 700px) {
+  .logo {
+    width: 20vw;
+  }
+  #top {
+    width: 100%
+  }
+  #video {
+    width: 350px;
+    height: 200px;
+  }
+}
