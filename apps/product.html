@@ -28,10 +28,45 @@
         </form>
       </div>
       <div id="gallery">
-        <iframe id="video" src="https://www.youtube.com/embed/crkq1ztc9SU"></iframe>
+          <div>
+          <div class="images-container">
+            <!-- Full width media with numbers & caption -->
+            <div class="slides fade">
+              <div class="number-text">1/4</div>
+              <img src="../images/bladeless_fan.jpg" alt="Bladeless Fan" style="width: 100%;">
+            </div>
+            <div class="slides fade">
+              <div class="number-text">2/4</div>
+              <img src="../images/ceiling_fan.jpg" alt="Ceiling Fan" style="width: 100%;">
+            </div>
+            <div class="slides fade">
+              <div class="number-text">3/4</div>
+              <img src="../images/desk_fan.jpg" alt="Desk Fan" style="width: 100%;">
+            </div>
+            <div class="slides fade">
+              <div class="number-text">4/4</div>
+              <img src="../images/standing_fan.jpg" alt="Standing Fan" style="width: 100%;">
+            </div>
+            <!-- Next & previous button -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <!-- Dots & circle -->
+          <div style="text-align: center;">
+            <span class="dots" onclick="currentSlide(1)"></span>
+            <span class="dots" onclick="currentSlide(2)"></span>
+            <span class="dots" onclick="currentSlide(3)"></span>
+            <span class="dots" onclick="currentSlide(4)"></span>
+          </div>
+        </div>
+        <div class="video-container">
+          <iframe id="video" src="https://www.youtube.com/embed/crkq1ztc9SU"></iframe>
+        </div>
       </div>
       <div id="features">2</div>
       <div id="pricing">3</div>
     </main>
+    <script src="../js/product.js"></script>
   </body>
 </html>
