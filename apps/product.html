@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <link rel="stylesheet" href="../css/product.css">
     <title>The Fan Company</title>
@@ -14,37 +15,35 @@
       <nav id="nav-bar">
         <ul>
           <li><a class="nav-link" href="#gallery">Gallery</a></li>
-          <li><a class="nav-link" href="#features">Features</a></li>
-          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="nav-link" href="#services">Our Services</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <div id="top">
-        <h1>We Sell Fans All Day</h1>
+        <h1>We Have All Kinds Of Fans</h1>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
           <input name="email" id="email" type="email" placeholder="Enter your email" required />
           <input id="submit" type="submit" value="order now"></input>
         </form>
       </div>
       <div id="gallery">
-          <div>
+      <div class="video-container">
+        <iframe id="video" src="https://www.youtube.com/embed/crkq1ztc9SU"></iframe>
+      </div>
+        <div id="images">
           <div class="images-container">
             <!-- Full width media with numbers & caption -->
             <div class="slides fade">
-              <div class="number-text">1/4</div>
               <img src="../images/bladeless_fan.jpg" alt="Bladeless Fan" style="width: 100%;">
             </div>
             <div class="slides fade">
-              <div class="number-text">2/4</div>
               <img src="../images/ceiling_fan.jpg" alt="Ceiling Fan" style="width: 100%;">
             </div>
             <div class="slides fade">
-              <div class="number-text">3/4</div>
               <img src="../images/desk_fan.jpg" alt="Desk Fan" style="width: 100%;">
             </div>
             <div class="slides fade">
-              <div class="number-text">4/4</div>
               <img src="../images/standing_fan.jpg" alt="Standing Fan" style="width: 100%;">
             </div>
             <!-- Next & previous button -->
@@ -60,12 +59,8 @@
             <span class="dots" onclick="currentSlide(4)"></span>
           </div>
         </div>
-        <div class="video-container">
-          <iframe id="video" src="https://www.youtube.com/embed/crkq1ztc9SU"></iframe>
-        </div>
       </div>
-      <div id="features">2</div>
-      <div id="pricing">3</div>
+      <div id="services">2</div>
     </main>
     <script src="../js/product.js"></script>
   </body>
