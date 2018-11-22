@@ -138,6 +138,25 @@ main {
   from {opacity: 0.4}
   to {opacity: 1}
 }
+#services{
+  padding-top: 50px;
+  text-align: center;
+}
+#services ul {
+  margin: 0;
+  padding: 0;
+}
+#services ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #00b3b3;
+  height: 300px;
+  vertical-align: bottom;
+}
+.services-text {
+  width: 200px;
+}
 
 @media screen and (max-width: 800px) {
   .logo {
