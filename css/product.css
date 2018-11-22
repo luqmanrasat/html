@@ -151,11 +151,12 @@ main {
   text-decoration: none;
   padding: 10px;
   background-color: #00b3b3;
-  height: 300px;
+  height: 250px;
   vertical-align: bottom;
 }
 .services-text {
   width: 200px;
+  padding-top: 10px;
 }
 
 @media screen and (max-width: 800px) {
